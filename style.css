@@ -40,6 +40,7 @@ i {
   font-size: 1.5rem;
 }
 .btn-primary {
+  margin-top: 10px;
   background-color: white;
   color: #333;
   transition: transform 2s;
@@ -202,4 +203,24 @@ footer p {
 .img-adresse .titre-para .underline {
   border-bottom: 1px solid #333;
   padding-bottom: 10px;
+}
+/*contact*/
+.contact-form-contenair {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+textarea {
+  resize: none;
+  height: 80px;
+}
+input,
+label {
+  margin-bottom: 3px;
 }

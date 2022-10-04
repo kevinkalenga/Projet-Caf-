@@ -6,7 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
-    <title>Document</title>
+    <title>Contact</title>
   </head>
-  <body></body>
+  <body>
+    <div class="contenair">
+      <header class="header">
+        <nav class="nav-bar">
+          <h1><a href="index.html">CAFE FLORETTE</a></h1>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="where.html">Nous trouver</a></li>
+            <li class="active"><a href="#contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class="form">
+        <div class="contact-form-contenair">
+          <h1 id="contact.html" class="underline">
+            Une question? Conctactez-nous
+          </h1>
+          <form>
+            <label for="nom">Nom</label>
+            <input type="text" name="nom" id="nom" />
+            <label for="Email">Email</label>
+            <input type="Email" name="Email" id="Email" />
+            <label for="question">Questions et Remarques</label>
+            <textarea name="question" id="question"></textarea>
+            <button class="btn btn-primary">SOUMETTRE</button>
+          </form>
+        </div>
+      </section>
+      <footer>
+        <p>Copyright & ; florette - 2022</p>
+      </footer>
+    </div>
+  </body>
 </html>
