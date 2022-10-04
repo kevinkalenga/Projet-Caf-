@@ -81,7 +81,7 @@ ul {
 }
 /*img-text*/
 .img-text {
-  background-image: url(cafe1.jpg);
+  background-image: url(/images/cafe1.jpg);
   background-position: center;
   background-size: cover;
   height: 700px;
@@ -121,4 +121,43 @@ ul {
   max-width: 600px;
   font-size: 15px;
   font-weight: bold;
+}
+/*img-person*/
+.person {
+  height: 450px;
+  background-image: url(/images/cafe3.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+/*Reservation*/
+.reservation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+}
+.reservation-clients p {
+  max-width: 500px;
+  margin: auto;
+  font-size: 1rem;
+  font-weight: 400px;
+}
+.btn-color {
+  display: block;
+  margin: 25px auto;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: #222;
+  color: #ddd;
+  padding: 8px;
+  transition: all 2s;
+}
+.btn-color:hover {
+  background-color: #f1c40f;
+  color: #222;
+  transform: scale(1.5);
+  cursor: pointer;
+  border: 1px solid black;
 }
