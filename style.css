@@ -161,3 +161,12 @@ ul {
   cursor: pointer;
   border: 1px solid black;
 }
+/*footer*/
+footer {
+  background-color: #222;
+  color: white;
+  padding: 30px 0 30px 0;
+}
+footer p {
+  text-align: center;
+}
