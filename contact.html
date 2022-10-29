@@ -5,7 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="stylesheet"
+      media="only screen
+    and
+    (max-width:500px)"
+      href="responsive.css"
+    />
     <title>Contact</title>
   </head>
   <body>
@@ -20,11 +26,9 @@
           </ul>
         </nav>
       </header>
-      <section class="form">
+      <section id="contact.html" class="form">
         <div class="contact-form-contenair">
-          <h1 id="contact.html" class="underline">
-            Une question? Conctactez-nous
-          </h1>
+          <h1 class="underline">Une question? Conctactez-nous</h1>
           <form>
             <label for="nom">Nom</label>
             <input type="text" name="nom" id="nom" />

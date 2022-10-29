@@ -99,7 +99,7 @@ ul {
   background-image: url(/images/cafe1.jpg);
   background-position: center;
   background-size: cover;
-  height: 700px;
+  height: 800px;
   text-align: center;
 }
 .img-text h1 {
@@ -112,7 +112,7 @@ ul {
 .contenu {
   max-width: 600px;
   color: white;
-  margin: 160px auto;
+  margin:150px auto;
 }
 .separator {
   margin: 10px auto;
@@ -150,7 +150,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  padding: 50px;
+  padding: 20px;
 }
 .reservation-clients p {
   max-width: 500px;
@@ -223,4 +223,51 @@ textarea {
 input,
 label {
   margin-bottom: 3px;
+}
+/*Partie media-querries*/
+@media screen and (max-width: 500px) {
+  body{
+    width:100%;
+  }
+  .header {
+    flex-direction: column;
+    text-align: center;
+    height:100%;
+  }
+  .nav-bar {
+    flex-direction: column;
+    background-color: #222;
+    text-align: center;
+    
+  }
+  .header h1 {
+    padding: 0;
+  }
+  .nav-bar ul {
+    flex-direction: column;
+    background-color: #222;
+    color: #fff;
+    width: 100%;
+    padding-left: 0;
+  }
+  .header .nav-bar ul li{
+    color:#fff;
+    margin: 0;
+
+  }
+  .contenu p {
+    font-size: 1.3rem;
+  }
+  .contenu-detail {
+    flex-direction: column;
+  }
+
+}
+
+/*section detaillé*/
+.contenu-detail {
+  flex-direction: column;
+}
+.img-text {
+  /*height: 500px;*/
 }
